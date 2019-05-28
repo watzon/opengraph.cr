@@ -1,6 +1,6 @@
 # opengraph.cr
 
-Crystal implementation of the [Open Graph](http://ogp.me) protocol, allowing you to parse Open Graph meta tags and extract valuable information.
+Crystal wrapper for the [Open Graph](http://ogp.me) protocol, allowing you to parse Open Graph meta tags and extract valuable information.
 
 ## Installation
 
@@ -31,12 +31,6 @@ puts og["title"]?
 puts og["image"]?
 # => "https://css-tricks.com/wp-content/uploads/2014/03/css-tricks-star.png"
 ```
-
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
 
 ## Contributing
 
